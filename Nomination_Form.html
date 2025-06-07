@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomination Form</title>
+</head>
+<body>
+    <div>
+        <a href="index.html" > Home</a>
+        <a href="about.html">About Us</a>
+        <a href="Volunteer_Form.html" >Volunteer Form</a>
+        <a href="Nomination_Form.html">Nomination Form</a>
+    </div>
+    <form>
+        <h2>Your Information</h2>
+        <label for="your-full-name">Your Full Name *</label><br>
+        <input type="text" id="your-full-name" name="your-full-name"><br>
+
+        <label for="your-email-address">Your Email Address *</label><br>
+        <input type="email" id="your-email-address" name="your-email-address" ><br>
+
+        <label for="your-phone-number">Your Phone Number *</label><br>
+        <input type="tel" id="your-phone-number" name="your-phone-number" ><br>
+
+        <label for="your-relationship-to-nominee">Your Relationship to Nominee *</label><br>
+        <input type="text" id="your-relationship-to-nominee" name="your-relationship-to-nominee"><br>
+
+        <h2>Nominee Information</h2>
+        <label for="nominee-full-name">Nominee's Full Name *</label><br>
+        <input type="text" id="nominee-full-name" name="nominee-full-name" ><br>
+
+        <label for="nominee-age">Nominee's Age *</label><br>
+        <input type="number" id="nominee-age" name="nominee-age" ><br>
+
+        <label for="nominee-gender">Nominee's Gender *</label><br>
+        <select id="nominee-gender" name="nominee-gender" >
+            <option value="">Select gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br>
+
+        <label for="nominee-phone-number">Nominee's Phone Number *</label><br>
+        <input type="tel" id="nominee-phone-number" name="nominee-phone-number"><br>
+
+        <label for="nominee-email-address">Nominee's Email Address *</label><br>
+        <input type="email" id="nominee-email-address" name="nominee-email-address" ><br>
+
+        <label for="nominee-address">Nominee's Address *</label><br>
+        <input type="text" id="nominee-address" name="nominee-address"><br>
+
+        <h2>Award Selection</h2>
+        <label for="award-category">Select Award Category *</label><br>
+        <select id="award-category" name="award-category" required>
+            <option value="">Choose an award category</option>
+            <option value="integrity">Integrity Award</option>
+            <option value="young-achiever">Young Achiever Award</option>
+            <option value="public-service">Public Service Award</option>
+            <option value="humanitarian">Humanitarian Award</option>
+            <option value="entrepreneurship">Entrepreneurship Award</option>
+            <option value="community-impact">Community Impact Award</option>
+            <option value="woman-of-the-year">Woman of the Year Award</option>
+        </select><br>
+
+        <h2>Nomination Details</h2>
+        <label for="nomination-reason">Why are you nominating this person? *</label><br>
+        <textarea id="nomination-reason" name="nomination-reason" rows="4" ></textarea><br>
+
+        <label for="nominee-before">How were things before they began? *</label><br>
+        <textarea id="nominee-before" name="nominee-before" rows="4" ></textarea><br>
+
+        <label for="nominee-after">How are things now? *</label><br>
+        <textarea id="nominee-after" name="nominee-after" rows="4" ></textarea><br>
+
+        <label for="nominee-difference">What makes your nominee different from others? *</label><br>
+        <textarea id="nominee-difference" name="nominee-difference" rows="4" ></textarea><br>
+
+        <button type="submit">Submit Nomination</button>
+    </form>
+</body>
+</html>
